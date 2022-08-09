@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: eWaterford
+title: eWaterford Shop Blog 2022
 subtitle: ''
-description: ''
+description: 'eWaterford is an online store where you can sell your products completely free.'
 keywords:
 author: Homeros
 language: en
 timezone: ''
+color: '#009fae'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
