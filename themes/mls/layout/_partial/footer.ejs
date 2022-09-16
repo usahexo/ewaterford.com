@@ -24,9 +24,15 @@
     </div>
     <div class="footer-ps">
         <p>Powered by <a href="<%= config.url %>" target="_blank"><%= config.title %></a> -
-            &copy; <%= date(new Date(), 'YYYY') %>
+            &copy; <%= date(new Date(), 'YYYY') %> | 
+			<% if (theme.links && theme.links.length){ %>
+                    <% theme.links.forEach(function(item){ %>
+                    | <a href="<%- item.link %>" class="animsition-link"><%= item.name %></a> 
+                    <% }); %>
+            <% } %>
         </p>
     </div>
+	
 </footer>
 
 <!--Import jQuery before materialize.js-->
